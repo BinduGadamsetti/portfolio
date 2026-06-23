@@ -222,3 +222,35 @@ footer h3{
         font-size:2.5rem;
     }
 }
+/* Social Links */
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: white;
+
+    padding: 12px 20px;
+
+    border: 2px solid #00e5ff;
+    border-radius: 30px;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover{
+    background: #00e5ff;
+    color: #08111f;
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0,229,255,0.5);
+}
